@@ -114,6 +114,126 @@
                 </ul>
             </div>
         </section>
+
+        <section class="view-today">
+            <h3 class="section-header">Смотрите сегодня, <span>24 июля</span></h3>
+            <section class="view-today__grid">
+                <ul>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                    <li class="grid-item">
+                        <a href="#" class="grid-item__thumbnail">
+                            <img src="{{ asset('img/grid-cover.png') }}">
+                        </a>
+                        <a href="#" class="grid-item__heading">
+                            Иллюзия обмана
+                        </a>
+                        <a href="#" class="grid-item__cta">Купить билет</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
     </main>
 
 </body>

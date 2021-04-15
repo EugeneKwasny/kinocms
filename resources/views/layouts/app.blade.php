@@ -90,6 +90,31 @@
 
         </div>
     </header>
+    <main>
+        <section class="hero-slider">
+            <ul>
+                <li>
+                    <img src="{{ asset('img/slider.png') }}">
+                </li>
+                <li>
+                    <img src="{{ asset('img/slider.png') }}">
+                </li>
+                <li>
+                    <img src="{{ asset('img/slider.png') }}">
+                </li>
+            </ul>
+            <div class="app-links">
+                <ul>
+                    <li>
+                        <a href="#"><img src="{{ asset('img/gplay.png') }}"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="{{ asset('img/appstore.png') }}"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>

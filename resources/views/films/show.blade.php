@@ -23,5 +23,4 @@
             </ul>
         </nav>
     </section>
-    <
 @endsection

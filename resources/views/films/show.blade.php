@@ -9,6 +9,19 @@
                 </li>
             @endfor
         </ul>
+        <nav class="hero-slider__nav">
+            <ul>
+                <li class="active">
+                    <a href="#"><span></span></a>
+                </li>
+                <li>
+                    <a href="#"><span></span></a>
+                </li>
+                <li>
+                    <a href="#"><span></span></a>
+                </li>
+            </ul>
+        </nav>
     </section>
-
+    <
 @endsection

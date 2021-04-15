@@ -84,6 +84,60 @@
                   </div>
             </span>
         </section>
+        <section class="item-card__content">
+                <div class="item-card__cover">
+                    <img src="{{asset('img/film-cover.png')}}">
+                </div>
+                <div class="item-card__description">
+                    <a href="#" class="btn">Купить билет</a>
+                    <h1 class="item-heading">Неоновый демон</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="item-card__features">
+                    <ul>
+                        <li><span>Год</span>2016</li>
+                        <li><span>Страна</span>Сша, Франция, Дания</li>
+                        <li><span>Жанр</span>Триллеры, Ужасы</li>
+                        <li><span>Бюджет</span>7 млн usd</li>
+                        <li><span>Возраст</span>зрители, достигшие 18 лет</li>
+                        <li><span>Время</span>117 минут</li>
+                    </ul>
+                </div>
+                <div class="item-card__posters">
+                    <ul>
+                        @for ($i = 0; $i < 5; $i++)
+                            <li>
+                                <img src="{{asset('img/poster.png')}}">
+                            </li>
+                        @endfor
+                    </ul>
+                    <nav class="slider-arrows">
+                        <ul>
+                            <li>
+                                <img src="{{asset('img/icon-arrow-left.png')}}">
+                            </li>
+                            <li>
+                                <img src="{{asset('img/icon-arrow-right.png')}}">
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="slider-bullets">
+                        <ul>
+                            <li class="active">
+                                <a href="#"><span></span></a>
+                            </li>
+                            @for ($i = 0; $i < 4; $i++)
+                                <li>
+                                    <a href="#"><span></span></a>
+                                </li>
+                            @endfor
+                        </ul>
+                    </nav>
+                </div>
 
+        </section>
+    </section>
+    <section class="context-ads">
+        <img src="{{ asset('img/context-ads.png') }}">
     </section>
 @endsection

@@ -20,7 +20,76 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
+    <header class="site-header">
+        <div class="logo">
+            <a href="#"><img src="{{ asset('img/logo.png') }}"></a>
+        </div>
+       <div class="menu-wrapper">
+            <div class="before-menu">
+                <div class="search-form">
+                    <input type="search" value="" placeholder="{{__('Search')}}">
+                </div>
+                <div class="social-follow">{{__('Social Follow links placeholder ')}}</div>
+                <div class="contacts">
+                    <ul>
+                        <li>(048)777-77-77</li>
+                        <li>(048)777-77-77</li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li>
+                        <a href="#">Афиша</a>
+                    </li>
+                    <li>
+                        <a href="#">Расписание</a>
+                    </li>
+                    <li>
+                        <a href="#">Скоро</a>
+                    </li>
+                    <li>
+                        <a href="#">Кинотеатры</a>
+                    </li>
+                    <li>
+                        <a href="#">Акции</a>
+                    </li>
+                    <li>
+                        <a href="#">О кинотеатре</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">Новости</a>
+                            </li>
+                            <li>
+                                <a href="#">Реклама</a>
+                            </li>
+                            <li>
+                                <a href="#">Кафе</a>
+                            </li>
+                            <li>
+                                <a href="#">Мобильные приложения</a>
+                            </li>
+                            <li>
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </li>
 
+                </ul>
+                <div class="language-switcher">
+                    <ul>
+                        <li>
+                            <a href="#">Рус</a>
+                        </li>
+                        <li>
+                            <a href="#">Eng</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </header>
 
 </body>
 </html>
